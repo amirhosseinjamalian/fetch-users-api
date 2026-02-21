@@ -2,6 +2,11 @@
 
 A clean web application that fetches user data from a **live API (FakeStore API)** and renders it dynamically using **Vanilla JavaScript**.
 
+
+## ▶️ Live Demo
+🔗 **Demo Online:** 
+[🔗Click here to view the live demo](https://amirhosseinjamalian.github.io/fetch-users-api/)
+
 ---
 
 ## 📌 Overview
