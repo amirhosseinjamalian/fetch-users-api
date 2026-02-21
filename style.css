@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("font/Vazirmatn-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 100dvh; */
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.container {
+  width: 330px;
+  direction: rtl;
+  padding: 10px;
+}
+
+.container_users {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.container_users:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+.container_users h3 {
+  font-size: 22px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.container_users p {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin: 5px 0;
+}
+
+.container_users p b {
+  color: #2c3e50;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.loading {
+  color: #2c3e50;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
