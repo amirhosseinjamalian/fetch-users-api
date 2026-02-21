@@ -2,7 +2,7 @@ const container = document.querySelector(".container");
 const loading = document.querySelector(".loading");
 
 setTimeout(() => {
-  fetch("/fakestoreapi.com/users.json")
+  fetch("./fakestoreapi.com/users.json")
     .then((response) => response.json())
     .then((data) => {
       loading.classList.add("hidden");
